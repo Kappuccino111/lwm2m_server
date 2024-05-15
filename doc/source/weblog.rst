@@ -1,5 +1,5 @@
 Weblog
-==================
+======
 
 Update Documentation & Add Weblog
 ---------------------------------
@@ -15,8 +15,9 @@ Update Documentation & Add Weblog
 
 
 .. # TODO: Add more updates here
+
 Project Starts 
-----------------
+--------------
 .. admonition:: #1
    :class: alert alert-info
    
@@ -25,4 +26,3 @@ Project Starts
    :Tags: Update
 
    - The project has started and the initial documentation has been added.
-
