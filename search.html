@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ac1fc1b8" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=64d943e2" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
@@ -156,17 +156,34 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="index.html">
-                    Flow Nexus: Open, Focused, Resilient
-                </a>
-            </li>
-        </ul>
-        <ul class="nav bd-sidenav">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Documentation</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="architecture/index.html">Architecture</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="architecture/django.html">Django</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture/leshan.html">Leshan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture/communication_interfaces.html">Communication, Interfaces</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="application_guide/index.html">Application Guide</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="application_guide/endpoint_interactions.html">Endpoint Interactions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="application_guide/events.html">Events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="application_guide/queue_mode.html">Queue Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="application_guide/fw_setup.html">Firmware Setup</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="deploy.html">Build and Deploy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simulation.html">Simulation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="weblog.html">Weblog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">APIs</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="api_doc/api.html">Internal Django</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">News and Updates</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="news/weblog.html">Weblog</a></li>
 </ul>
 
     </div>
@@ -359,10 +376,6 @@ document.write(`
   
   <div class="footer-item">
     
-<p class="component-author">
-By Jonas Remmert, Akarshan Kapoor
-</p>
-
   </div>
   
   <div class="footer-item">
@@ -370,7 +383,7 @@ By Jonas Remmert, Akarshan Kapoor
 
   <p class="copyright">
     
-      © Copyright 2024, Jonas Remmert, Akarshan Kapoor.
+      © Copyright 2024, Individual contributors to Flow Nexus.
       <br/>
     
   </p>
